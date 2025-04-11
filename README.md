@@ -17,17 +17,3 @@ docker run -p 3000:3000 my-backend-app
 ```
 
 ---
-
-## 🔁 Hot Reloading with Nodemon (Optional for Development)
-Use this for automatic server restarts when code changes:
-
-```bash
-docker run -p 3000:3000 -v $(pwd):/app my-backend-app
-```
-
-**Update `package.json` if needed:**
-```json
-"start": "nodemon --legacy-watch index.js"
-```
-
----
